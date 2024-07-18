@@ -1,0 +1,17 @@
+{
+    "header": {
+        "dataset_name": "NewsQA",
+        "split": "dev",
+        "dataset_url": "https://datasets.maluuba.com/NewsQA",
+        "license": "https://datasets.maluuba.com/terms-and-conditions",
+        "data_source": "NewsWire",
+        "context_answer_detection_source": "NewsQA",
+        "tokenization_source": "MultiQA",
+        "full_schema": {},
+        "text_type": "abstract",
+        "number_of_qas": 0,
+        "number_of_contexts": 0,
+        "readme": "",
+        "multiqa_version": "0.00"
+    }
+}

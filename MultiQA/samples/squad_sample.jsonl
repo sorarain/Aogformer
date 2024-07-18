@@ -1,0 +1,408 @@
+{"header": {"dataset_name": "SQuAD", "version": "2.0", "flavor": null, "split": "train", "dataset_url": "https://rajpurkar.github.io/SQuAD-explorer/", "license": "http://creativecommons.org/licenses/by-sa/4.0/legalcode", "data_source": "Wikipedia", "context_answer_detection_source": "SQuAD", "tokenization_source": "MultiQA", "full_schema": {}, "text_type": "abstract", "number_of_qas": 15, "number_of_qas_with_gold_answers": 15, "number_of_contexts": 1, "file_num": 1, "next_file_exists": false, "readme": "", "multiqa_version": "0.1.0"}}
+{
+    "id": "SQuAD_adfa65f69c33436fbc7d69bebd7c3391",
+    "context": {
+        "documents": [{
+                "text": "Beyonc\u00e9 Giselle Knowles-Carter (/bi\u02d0\u02c8j\u0252nse\u026a/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer and actress. Born and raised in Houston, Texas, she performed in various singing and dancing competitions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny's Child. Managed by her father, Mathew Knowles, the group became one of the world's best-selling girl groups of all time. Their hiatus saw the release of Beyonc\u00e9's debut album, Dangerously in Love (2003), which established her as a solo artist worldwide, earned five Grammy Awards and featured the Billboard Hot 100 number-one singles \"Crazy in Love\" and \"Baby Boy\".",
+                "title": "Beyonc\u00e9",
+                "tokens": {
+                    "title": [["Beyonc\u00e9",0]
+                    ],
+                    "text": [["Beyonc\u00e9",0],["Giselle",8],["Knowles",16],["-",23],["Carter",24],["(",31],["/bi\u02d0\u02c8j\u0252nse\u026a/",32],["bee",45],["-",48],["YON",49],["-",52],["say",53],[")",56],["(",58],["born",59],["September",64],["4",74],[",",75],["1981",77],[")",81],["is",83],["an",86],["American",89],["singer",98],[",",104],["songwriter",106],[",",116],["record",118],["producer",125],["and",134],["actress",138],[".",145],["Born",147],["and",152],["raised",156],["in",163],["Houston",166],[",",173],["Texas",175],[",",180],["she",182],["performed",186],["in",196],["various",199],["singing",207],["and",215],["dancing",219],["competitions",227],["as",240],["a",243],["child",245],[",",250],["and",252],["rose",256],["to",261],["fame",264],["in",269],["the",272],["late",276],["1990s",281],["as",287],["lead",290],["singer",295],["of",302],["R&B",305],["girl",309],["-",313],["group",314],["Destiny",320],["'s",327],["Child",330],[".",335],["Managed",337],["by",345],["her",348],["father",352],[",",358],["Mathew",360],["Knowles",367],[",",374],["the",376],["group",380],["became",386],["one",393],["of",397],["the",400],["world",404],["'s",409],["best",412],["-",416],["selling",417],["girl",425],["groups",430],["of",437],["all",440],["time",444],[".",448],["Their",450],["hiatus",456],["saw",463],["the",467],["release",471],["of",479],["Beyonc\u00e9",482],["'s",489],["debut",492],["album",498],[",",503],["Dangerously",505],["in",517],["Love",520],["(",525],["2003",526],[")",530],[",",531],["which",533],["established",539],["her",551],["as",555],["a",558],["solo",560],["artist",565],["worldwide",572],[",",581],["earned",583],["five",590],["Grammy",595],["Awards",602],["and",609],["featured",613],["the",622],["Billboard",626],["Hot",636],["100",640],["number",644],["-",650],["one",651],["singles",655],["\"",663],["Crazy",664],["in",670],["Love",673],["\"",677],["and",679],["\"",683],["Baby",684],["Boy",689],["\"",692],[".",693]
+                    ]
+                }
+            }
+        ]
+    },
+    "qas": [{
+            "qid": "SQuAD_q_56be85543aeaaa14008c9063",
+            "question": "When did Beyonce start becoming popular?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "in the late 1990s",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 269,
+                                            "text": "in the late 1990s",
+                                            "token_inds": [56,59]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["When",0],["did",5],["Beyonce",9],["start",17],["becoming",23],["popular",32],["?",39]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56be85543aeaaa14008c9065",
+            "question": "What areas did Beyonce compete in when she was growing up?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "singing and dancing",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 207,
+                                            "text": "singing and dancing",
+                                            "token_inds": [44,46]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["What",0],["areas",5],["did",11],["Beyonce",15],["compete",23],["in",31],["when",34],["she",39],["was",43],["growing",47],["up",55],["?",57]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56be85543aeaaa14008c9066",
+            "question": "When did Beyonce leave Destiny's Child and become a solo singer?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "2003",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 526,
+                                            "text": "2003",
+                                            "token_inds": [112,112]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["When",0],["did",5],["Beyonce",9],["leave",17],["Destiny",23],["'s",30],["Child",33],["and",39],["become",43],["a",50],["solo",52],["singer",57],["?",63]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56bf6b0f3aeaaa14008c9601",
+            "question": "In what city and state did Beyonce  grow up? ",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "Houston, Texas",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 166,
+                                            "text": "Houston, Texas",
+                                            "token_inds": [36,38]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["In",0],["what",3],["city",8],["and",13],["state",17],["did",23],["Beyonce",27],["grow",36],["up",41],["?",43]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56bf6b0f3aeaaa14008c9602",
+            "question": "In which decade did Beyonce become famous?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "late 1990s",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 276,
+                                            "text": "late 1990s",
+                                            "token_inds": [58,59]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["In",0],["which",3],["decade",9],["did",16],["Beyonce",20],["become",28],["famous",35],["?",41]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56bf6b0f3aeaaa14008c9603",
+            "question": "In what R&B group was she the lead singer?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "Destiny's Child",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 320,
+                                            "text": "Destiny's Child",
+                                            "token_inds": [68,70]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["In",0],["what",3],["R&B",8],["group",12],["was",18],["she",22],["the",26],["lead",30],["singer",35],["?",41]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56bf6b0f3aeaaa14008c9604",
+            "question": "What album made her a worldwide known artist?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "Dangerously in Love",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 505,
+                                            "text": "Dangerously in Love",
+                                            "token_inds": [108,110]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["What",0],["album",5],["made",11],["her",16],["a",20],["worldwide",22],["known",32],["artist",38],["?",44]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56bf6b0f3aeaaa14008c9605",
+            "question": "Who managed the Destiny's Child group?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "Mathew Knowles",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 360,
+                                            "text": "Mathew Knowles",
+                                            "token_inds": [77,78]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["Who",0],["managed",4],["the",12],["Destiny",16],["'s",23],["Child",26],["group",32],["?",37]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56d43c5f2ccc5a1400d830a9",
+            "question": "When did Beyonc\u00e9 rise to fame?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "late 1990s",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 276,
+                                            "text": "late 1990s",
+                                            "token_inds": [58,59]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["When",0],["did",5],["Beyonc\u00e9",9],["rise",17],["to",22],["fame",25],["?",29]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56d43c5f2ccc5a1400d830aa",
+            "question": "What role did Beyonc\u00e9 have in Destiny's Child?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "lead singer",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 290,
+                                            "text": "lead singer",
+                                            "token_inds": [61,62]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["What",0],["role",5],["did",10],["Beyonc\u00e9",14],["have",22],["in",27],["Destiny",30],["'s",37],["Child",40],["?",45]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56d43c5f2ccc5a1400d830ab",
+            "question": "What was the first album Beyonc\u00e9 released as a solo artist?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "Dangerously in Love",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 505,
+                                            "text": "Dangerously in Love",
+                                            "token_inds": [108,110]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["What",0],["was",5],["the",9],["first",13],["album",19],["Beyonc\u00e9",25],["released",33],["as",42],["a",45],["solo",47],["artist",52],["?",58]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56d43c5f2ccc5a1400d830ac",
+            "question": "When did Beyonc\u00e9 release Dangerously in Love?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "2003",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 526,
+                                            "text": "2003",
+                                            "token_inds": [112,112]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["When",0],["did",5],["Beyonc\u00e9",9],["release",17],["Dangerously",25],["in",37],["Love",40],["?",44]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56d43c5f2ccc5a1400d830ad",
+            "question": "How many Grammy awards did Beyonc\u00e9 win for her first solo album?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "five",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 590,
+                                            "text": "five",
+                                            "token_inds": [125,125]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["How",0],["many",4],["Grammy",9],["awards",16],["did",23],["Beyonc\u00e9",27],["win",35],["for",39],["her",43],["first",47],["solo",53],["album",58],["?",63]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56d43ce42ccc5a1400d830b4",
+            "question": "What was Beyonc\u00e9's role in Destiny's Child?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "lead singer",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 290,
+                                            "text": "lead singer",
+                                            "token_inds": [61,62]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["What",0],["was",5],["Beyonc\u00e9",9],["'s",16],["role",19],["in",24],["Destiny",27],["'s",34],["Child",37],["?",42]
+            ]
+        },
+        {
+            "qid": "SQuAD_q_56d43ce42ccc5a1400d830b5",
+            "question": "What was the name of Beyonc\u00e9's first solo album?",
+            "answers": {
+                "open-ended": {
+                    "annotators_answer_candidates": [{
+                            "single_answer": {
+                                "extractive": {
+                                    "answer": "Dangerously in Love",
+                                    "instances": [{
+                                            "doc_id": 0,
+                                            "part": "text",
+                                            "start_byte": 505,
+                                            "text": "Dangerously in Love",
+                                            "token_inds": [108,110]
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "question_tokens": [["What",0],["was",5],["the",9],["name",13],["of",18],["Beyonc\u00e9",21],["'s",28],["first",31],["solo",37],["album",42],["?",47]
+            ]
+        }
+    ]
+}
